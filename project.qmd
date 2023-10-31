@@ -1,13 +1,69 @@
 ---
-title: "DANL 200 Project"
+title: DANL Project
+subtitle: "Data-Driven Mastery: Unlocking Business Potential"
 author: 
   - Name 1
   - Name 2
   - Name 3
+  - Name 4
+  - Name 5
+
+toc: true
+toc-title: "Table of Contents"
+toc-depth: 2
+number-sections: true
+
+execute:
+  code-tools: true
+  message: false
+  warning: false
+    
 ---
+```{r setup}
+#| include: false
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(10,0,0,0)),
+                axis.title.y  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(0,10,0,0))
+                )
+          )
+```
+
+
+
+# Introduction
 
 About this project
 
 ```{r}
 1 + 1
 ```
+
+
+# Data
+
+## Summary Statistics
+
+```{r}
+skim(mpg)
+```
+
+
+## Visualization
+```{r}
+ggplot(mpg) +
+  geom_boxplot(aes(x = class, y = hwy, fill = class),
+               show.legend = F) +
+  labs(x = "Class", y = "Highway\nMPG") 
+```
+
+

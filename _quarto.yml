@@ -3,13 +3,16 @@ project:
   output-dir: "."
 
 website:
-  title: "Data Analytics"
+  title: "YOUR NAME"
   navbar:
+    pinned: true
     left:
-      - href: index.qmd
-        text: Home
-      - href: project.qmd
-        text: Project
+      - text: Project
+        href: project.qmd
+      - text: Blog
+        href: blog-listing.qmd
+  page-footer: 
+    center: "Powered with GitHub and Quarto<br>© YOUR NAME, 2023"
 
 format:
   html:
@@ -17,7 +20,6 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
-    toc: true
-
-
+    toc: false
+    include-after-body: target_blank.html
 
