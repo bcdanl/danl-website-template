@@ -17,7 +17,8 @@ execute:
   code-tools: true
   message: false
   warning: false
-    
+
+from: markdown+emoji
 ---
 ```{r setup}
 #| include: false
@@ -29,10 +30,10 @@ library(hrbrthemes)
 theme_set(theme_ipsum()+
           theme(strip.background =element_rect(fill="lightgray"),
                 axis.title.x  = element_text(angle = 0,
-                                            size = rel(1.5),
+                                            size = rel(1.33),
                                             margin = margin(10,0,0,0)),
                 axis.title.y  = element_text(angle = 0,
-                                            size = rel(1.5),
+                                            size = rel(1.33),
                                             margin = margin(0,10,0,0))
                 )
           )
@@ -42,7 +43,7 @@ theme_set(theme_ipsum()+
 
 # Introduction
 
-About this project
+About this project :clap:
 
 ```{r}
 1 + 1
@@ -51,7 +52,7 @@ About this project
 
 # Data
 
-The data.frame `mpg` contains a subset of the fuel economy data that the EPA makes available on [https://fueleconomy.gov/](https://fueleconomy.gov/). It contains only models which had a new release every year between 1999 and 2008 - this was used as a proxy for the popularity of the car.
+The data.frame `mpg` contains a subset of the fuel economy data that the EPA makes available on [https://fueleconomy.gov/](https://fueleconomy.gov/). It contains only models which had a new release every year between 1999 and 2008 - this was used as a proxy for the popularity of the car. :oncoming_automobile:
 
 
 ## Summary Statistics
@@ -62,7 +63,7 @@ skim(mpg)
 
 
 ## MPG and a Type of Cars
-The following boxplot shows how the distribution of city MPG (cty) varies by a type of cars (class).
+The following boxplot shows how the distribution of city MPG (cty) varies by a type of cars (class). :blue_car: :truck: :minibus:
 
 
 ```{r}
