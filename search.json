@@ -14,22 +14,22 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "posts/starwars/index.html",
-    "href": "posts/starwars/index.html",
+    "objectID": "posts/starwars/starwars_df.html",
+    "href": "posts/starwars/starwars_df.html",
     "title": "Starwars",
     "section": "",
     "text": "Let’s analyze the starwars data:"
   },
   {
-    "objectID": "posts/starwars/index.html#variable-description-for-starwars-data.frame",
-    "href": "posts/starwars/index.html#variable-description-for-starwars-data.frame",
+    "objectID": "posts/starwars/starwars_df.html#variable-description-for-starwars-data.frame",
+    "href": "posts/starwars/starwars_df.html#variable-description-for-starwars-data.frame",
     "title": "Starwars",
     "section": "Variable Description for starwars data.frame",
     "text": "Variable Description for starwars data.frame\nThe following describes the variables in the starwars data.frame.\n\nfilms List of films the character appeared in\nname Name of the character\nspecies Name of species\nheight Height (cm)\nmass Weight (kg)\nhair_color, skin_color, eye_color Hair, skin, and eye colors\nbirth_year Year born (BBY = Before Battle of Yavin)\nsex The biological sex of the character, namely male, female, hermaphroditic, or none (as in the case for Droids).\ngender The gender role or gender identity of the character as determined by their personality or the way they were programmed (as in the case for Droids).\nhomeworld Name of homeworld"
   },
   {
-    "objectID": "posts/starwars/index.html#human-vs.-droid",
-    "href": "posts/starwars/index.html#human-vs.-droid",
+    "objectID": "posts/starwars/starwars_df.html#human-vs.-droid",
+    "href": "posts/starwars/starwars_df.html#human-vs.-droid",
     "title": "Starwars",
     "section": "Human vs. Droid",
     "text": "Human vs. Droid\n\nggplot(data = \n         starwars %>% \n         filter(species %in% c(\"Human\", \"Droid\"))) +\n  geom_boxplot(aes(x = species, y = mass, \n                   fill = species),\n               show.legend = FALSE)"
