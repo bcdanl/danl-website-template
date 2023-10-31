@@ -1,8 +1,11 @@
 ---
 title: "YOUR NAME"
 about:
-  template: jolla  # jolla  trestles  solana  marquee  broadside
+  template: trestles  # jolla  trestles  solana  marquee  broadside
   image: img/profile.png
+  image-width: 16em
+  image-shape: round # rectangle  round  rounded
+  
   links:
     - icon: linkedin
       text: LinkedIn
@@ -23,6 +26,7 @@ about:
 include-after-body: copyright.html
 ---
 
+
 Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
 
 ## Education
@@ -34,3 +38,5 @@ Minor in Business Administration
 ## Experience
 
 Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+
+
