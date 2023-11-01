@@ -1,6 +1,6 @@
 ---
 title: "Post With Code"
-author: "Harlow Malloc"
+author: "YOUR NAME"
 date: "2023-10-30"
 categories: [news, code, analysis]
 image: "image.jpg"

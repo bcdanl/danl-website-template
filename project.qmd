@@ -58,7 +58,8 @@ The data.frame `mpg` contains a subset of the fuel economy data that the EPA mak
 ## Summary Statistics
 
 ```{r}
-skim(mpg)
+skim(mpg) %>% 
+  select(-n_missing)
 ```
 
 
