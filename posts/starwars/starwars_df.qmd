@@ -8,6 +8,8 @@ image: "image.png"
 execute: 
   warning: false
   message: false
+  
+toc: true
 ---
 ```{r}
 #| include: false
