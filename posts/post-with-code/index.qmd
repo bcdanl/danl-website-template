@@ -12,4 +12,4 @@ This is a post with executable code with no space in the folder name.
 1 + 1
 ```
 
-![](http://bcdanl.github.io/danl-website-template/posts/post-with-code/image.jpg)
+![](image.jpg)
