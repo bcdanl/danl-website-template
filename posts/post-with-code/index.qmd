@@ -6,7 +6,7 @@ categories: [news, code, analysis]
 image: "image.jpg"
 ---
 
-This is a post with executable code.
+This is a post with executable code with no space in the folder name.
 
 ```{r}
 1 + 1
