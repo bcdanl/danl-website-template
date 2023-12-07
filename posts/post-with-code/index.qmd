@@ -11,3 +11,5 @@ This is a post with executable code.
 ```{r}
 1 + 1
 ```
+
+![](http://bcdanl.github.io/danl-website-template/posts/post-with-code/image.jpg)

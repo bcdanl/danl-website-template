@@ -23,7 +23,6 @@ about:
       text: Email
       href: mailto:YOUR_EMAIL@geneseo.edu
 
-include-after-body: copyright.html
 ---
 
 
