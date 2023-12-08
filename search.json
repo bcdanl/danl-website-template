@@ -7,27 +7,6 @@
     "text": "This is a post with executable code with no space in the folder name.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "posts/starwars2/starwars2.html",
-    "href": "posts/starwars2/starwars2.html",
-    "title": "Starwars",
-    "section": "",
-    "text": "Let’s analyze the starwars data:"
-  },
-  {
-    "objectID": "posts/starwars2/starwars2.html#variable-description-for-starwars-data.frame",
-    "href": "posts/starwars2/starwars2.html#variable-description-for-starwars-data.frame",
-    "title": "Starwars",
-    "section": "Variable Description for starwars data.frame",
-    "text": "Variable Description for starwars data.frame\nThe following describes the variables in the starwars data.frame.\n\nfilms List of films the character appeared in\nname Name of the character\nspecies Name of species\nheight Height (cm)\nmass Weight (kg)\nhair_color, skin_color, eye_color Hair, skin, and eye colors\nbirth_year Year born (BBY = Before Battle of Yavin)\nsex The biological sex of the character, namely male, female, hermaphroditic, or none (as in the case for Droids).\ngender The gender role or gender identity of the character as determined by their personality or the way they were programmed (as in the case for Droids).\nhomeworld Name of homeworld"
-  },
-  {
-    "objectID": "posts/starwars2/starwars2.html#human-vs.-droid",
-    "href": "posts/starwars2/starwars2.html#human-vs.-droid",
-    "title": "Starwars",
-    "section": "Human vs. Droid",
-    "text": "Human vs. Droid\n\nggplot(data = \n         starwars %>% \n         filter(species %in% c(\"Human\", \"Droid\"))) +\n  geom_boxplot(aes(x = species, y = mass, \n                   fill = species),\n               show.legend = FALSE)"
-  },
-  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
