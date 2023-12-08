@@ -2,7 +2,7 @@
 title: "Beer Markets"
 author: "Byeong-Hak Choe"
 date: "2023-11-02"
-categories: [beer, code, data-analysis]
+categories: [beer, code, data analysis]
 image: "image.png"
 
 execute: 
