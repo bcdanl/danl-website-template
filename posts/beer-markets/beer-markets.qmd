@@ -8,8 +8,16 @@ image: "image.png"
 execute: 
   warning: false
   message: false
+  code-tools: true
   
 toc: true
+
+format: 
+  html: default
+  ipynb: default
+prefer-html: true
+format-links: [ipynb]
+
 ---
 ```{r}
 #| include: false
