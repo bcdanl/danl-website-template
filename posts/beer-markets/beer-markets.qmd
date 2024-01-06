@@ -13,9 +13,8 @@ execute:
 toc: true
 
 format: 
-  ipynb: default
   html: default
-prefer-html: true
+  ipynb: default
 format-links: [ipynb]
 
 ---
