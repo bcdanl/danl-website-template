@@ -13,10 +13,10 @@ execute:
 toc: true
 
 format: 
-  html: default
   ipynb: default
-# prefer-html: true
-# format-links: [ipynb]
+  html: default
+prefer-html: true
+format-links: [ipynb]
 
 ---
 ```{r}
