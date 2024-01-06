@@ -15,7 +15,7 @@ toc: true
 format: 
   html: default
   ipynb: default
-prefer-html: true
+# prefer-html: true
 format-links: [ipynb]
 
 ---
