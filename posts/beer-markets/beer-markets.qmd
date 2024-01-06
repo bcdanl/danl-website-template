@@ -16,7 +16,7 @@ format:
   html: default
   ipynb: default
 # prefer-html: true
-format-links: [ipynb]
+# format-links: [ipynb]
 
 ---
 ```{r}
