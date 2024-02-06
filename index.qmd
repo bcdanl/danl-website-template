@@ -1,5 +1,5 @@
 ---
-title: "YOUR NAME" 
+title: "B.H. Choe" 
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
   image: img/profile.png
