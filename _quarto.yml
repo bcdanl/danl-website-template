@@ -19,10 +19,10 @@ website:
 format:
   html:
     theme: 
-      light: flatly
-      dark: darkly
+      light: united
+      dark: vapor
     mainfont: system-ui; 
-    highlight-style: atom-one
+    highlight-style: espresso  # atom-one
     css: styles.css
     toc: false
     include-after-body: target_blank.html

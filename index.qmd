@@ -2,9 +2,9 @@
 title: "YOUR NAME" 
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
-  image: img/profile.png
+  image: img/bchoe2017.png
   image-width: 16em
-  image-shape: round # rectangle  round  rounded
+  image-shape: rounded # rectangle  round  rounded
   
   links:
     - icon: linkedin
