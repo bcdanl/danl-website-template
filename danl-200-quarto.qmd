@@ -39,7 +39,11 @@ library(DT)
 Let me add a code chunk:
 
 ```{r}
-this <- "that"
+# below command is not meaningful
+this <- "that" # this is a R command
+that <- "this"
+
+
 ```
 
 

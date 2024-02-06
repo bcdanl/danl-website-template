@@ -3,7 +3,7 @@ project:
   output-dir: "."
 
 website:
-  title: "Byeong-Hak Choe"
+  title: "YOUR NAME"
   navbar:
     # background: "#006600"
     pinned: true
