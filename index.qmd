@@ -39,3 +39,11 @@ Minor in Business Administration
 Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
 
 
+
+<br>
+
+```{=html}
+<iframe height="900px" width="100%" frameborder="no"
+src="data-entry/data-entry-form.html">
+</iframe>
+```
