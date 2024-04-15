@@ -18,7 +18,8 @@ about:
       href: https://github.com
     - icon: file-earmark-pdf
       text: Resumé
-      href: https://GITHUB_USERNAME.github.io/resume-example.pdf
+      href: resume-example.pdf
+      target: _blank
     - icon: mailbox
       text: Email
       href: mailto:YOUR_EMAIL@geneseo.edu
