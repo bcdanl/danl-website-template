@@ -1,9 +1,9 @@
 ---
-title: "Starwars"
-author: "Your Name"
-date: "2023-10-30"
+title: Starwars
+author: Your Name
+date: 2025-01-22
 categories: [starwars, code, analysis]
-image: "image.png"
+image: image.png
 
 execute: 
   warning: false
