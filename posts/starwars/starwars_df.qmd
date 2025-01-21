@@ -16,12 +16,11 @@ toc: true
 
 library(knitr)
 library(rmarkdown)
-library(tidyverse)
-library(skimr)
-library(ggthemes)
-library(hrbrthemes)
+library(ggplot2)
+library(readr)
+library(dplyr)
 
-theme_set(theme_ipsum()+
+theme_set(theme_minimal()+
           theme(strip.background =element_rect(fill="lightgray"),
                 axis.title.x  = element_text(angle = 0,
                                             size = rel(1.5),
