@@ -1,30 +1,30 @@
 ---
-title: "YOUR NAME" 
+title: "B.H. Choe" 
 about:
   template: jolla  # jolla  trestles  solana  marquee  broadside
-  image: img/profile.png
+  image: img/bchoe-github.png
   image-width: 16em
-  image-shape: round # rectangle  round  rounded
+  image-shape: rounded # rectangle  round  rounded
   
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/byeonghakchoe
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/bcecon
     - icon: file-earmark-pdf
       text: Resumé
-      href: resume-example.pdf
+      href: choe-cv.pdf
       target: _blank
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:bchoe@geneseo.edu
 
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+Byeong-Hak majors in Economics at Hanyang University at Ansan in South Korea. .....
 
 ## Education
 
