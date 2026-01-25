@@ -9,18 +9,24 @@ website:
     pinned: true
     left:
       - text: Project
-        href: danl_proj_nba.ipynb
+        href: project/danl-proj.qmd
+      - text: Data Analysis
+        menu: 
+          - text: Data Visualization with `ggplot`
+            href: notes/danl-ggplot.qmd
+          - text: Data Transformation with `dplyr`
+            href: notes/danl-dplyr.qmd
       - text: Blog
         href: blog-listing.qmd
       
             
   page-footer: 
-    center: "Powered with GitHub, Quarto, and Jupyter Notebook<br>© YOUR NAME, 2025"
+    center: "Powered with GitHub and Quarto<br>© YOUR NAME, 2026"
 
 format:
   html:
     theme: 
-      light: flatly # flatly sandstone yeti united litera journal
+      light: flatly # flatly sandstone yeti united litera journal brite
       dark: darkly #  darkly cyborg slate solra superhero
     mainfont: system-ui; 
     highlight-style: atom-one  # atom-one espresso
