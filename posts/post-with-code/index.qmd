@@ -1,8 +1,8 @@
 ---
 title: "Post With Code"
 author: "YOUR NAME"
-date: 2025-01-22
-categories: [news, code, analysis]
+date: 2026-01-22
+categories: [news, code, data-analysis]
 image: "image.jpg"
 ---
 
