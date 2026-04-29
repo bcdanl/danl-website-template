@@ -16,9 +16,7 @@ toc: true
 
 library(knitr)
 library(rmarkdown)
-library(ggplot2)
-library(readr)
-library(dplyr)
+library(tidyverse)
 
 theme_set(theme_minimal()+
           theme(strip.background =element_rect(fill="lightgray"),
@@ -90,7 +88,8 @@ ggplot(data =
          filter(species %in% c("Human", "Droid"))) +
   geom_boxplot(aes(x = species, y = mass, 
                    fill = species),
-               show.legend = FALSE)
+               show.legend = FALSE) +
+  scale_fill_viridis_d(option = "C")
 
 ```
 

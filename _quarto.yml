@@ -9,7 +9,7 @@ website:
     pinned: true
     left:
       - text: Project
-        href: project/danl-proj.qmd
+        href: danl-research-template.qmd
       - text: Data Analysis
         menu: 
           - text: Data Visualization with `ggplot`
@@ -20,8 +20,8 @@ website:
         href: blog-listing.qmd
       
             
-  page-footer: 
-    center: "Powered with GitHub and Quarto<br>© YOUR NAME, 2026"
+  # page-footer: 
+  #   center: "Powered with GitHub and Quarto<br>© YOUR NAME, 2026"
 
 format:
   html:
